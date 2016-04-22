@@ -1,0 +1,29 @@
+{
+  "name": "temperature",
+  "version": "0.0.1",
+  "description": "A realtime chart for temperature values of LM35 with Arduino, Johnny-Five and EON.js",
+  "main": "temperature.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node temperature.js"
+  },
+  "keywords": [
+    "temperature",
+    "arduino",
+    "johnny-five",
+    "eon.js",
+    "eon",
+    "javascript",
+    "node"
+  ],
+  "author": "Jorge Rios",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "johnny-five": "^0.9.25",
+    "node-twitter-api": "^1.7.0",
+    "pubnub": "^3.12.0",
+    "twitter": "^1.2.5"
+  }
+}
